@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.main-container {
+  width: 100%;
+  max-width: var(--xl);
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+

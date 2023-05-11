@@ -1,0 +1,14 @@
+:root {
+  --white: #fff;
+  --main-color: #0065FC;
+  --main-bg-color: #F2F2F2;
+  --filter-bg-color: #DEEBFF;
+  --xs: 32rem;
+  --sm: 76.8rem;
+  --md: 102.3rem;
+  --lg: 102.4rem;
+  --xl: 144rem;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+

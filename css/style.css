@@ -1,28 +1,13 @@
+@import url('./commons/variables.css');
+@import url('./commons/fonts.css');
+@import url('./commons/grid.css');
+@import url('./components/layout.css');
+@import url('./components/header.css');
+@import url('./components/footer.css');
+
 /****** General ***********/
 * {
   font-family: 'Raleway', sans-serif;
-}
-
-:root {
-  --main-color: #0065FC;
-  --main-bg-color: #F2F2F2;
-  --filter-bg-color: #DEEBFF;
-}
-
-.fa-solid {
-  color: var(--main-color);
-}
-
-body {
-  display: flex;
-  justify-content: center;
-}
-
-.main-container {
-  width: 100%;
-  max-width: 1440px;
-  padding: 0 50px;
-  box-sizing: border-box;
 }
 
 .section-title {
