@@ -2,6 +2,8 @@
 @import url('./commons/fonts.css');
 @import url('./commons/grid.css');
 @import url('./commons/titles.css');
+@import url('./commons/margins.css');
+@import url('./commons/paddings.css');
 @import url('./commons/card.css');
 @import url('./components/stars.css');
 @import url('./components/layout.css');
@@ -9,14 +11,6 @@
 @import url('./components/footer.css');
 @import url('./components/accommodation.css');
 
-/****** General ***********/
-.euro {
-  font-weight: 700;
-}
-
-.neutralStar {
-  color: var(--main-bg-color)
-}
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
