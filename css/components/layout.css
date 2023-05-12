@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--white);
+  color: var(--black);
 }
 
 .main-container {
