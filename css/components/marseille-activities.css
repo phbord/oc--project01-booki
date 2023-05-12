@@ -1,0 +1,34 @@
+.marseille-activities {
+  padding: 3rem;
+}
+
+.marseille-activities a {
+  display: block;
+}
+
+.marseille-activities .card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.marseille-activities img {
+  width: 100%;
+  height: 14.1rem;
+  border-radius: 2rem 2rem 0 0;
+  object-fit: cover;
+}
+
+.marseille-activities .card-title {
+  padding: 2.5rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+}
+
+
+@media (min-width: 102.4rem) {
+  .marseille-activities img {
+    height: 20rem;
+  }
+}
