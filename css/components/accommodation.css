@@ -6,8 +6,8 @@
 
 .accommodation-and-popular section {
   background-color: var(--main-bg-color);
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 2rem;
+  padding: 3rem;
   box-sizing: border-box;
 }
 
@@ -29,19 +29,19 @@
 
 .popular-cards .card {
   display: flex;
-  margin-top: 33px;
+  margin-top: 3.3rem;
 }
 
 .popular-cards img {
   width: 33%;
-  height: 136px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  height: 13.6rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .popular-cards .card-content {
   width: 67%;
-  padding-left: 15px;
+  padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,8 +49,8 @@
 }
 
 .popular-cards .card-title {
-  margin-top: 10px;
-  margin-bottom: 4px;
+  margin-top: 1rem;
+  margin-bottom: .4rem;
 }
 
 .popular-cards .card-subtitle {
@@ -58,7 +58,7 @@
 }
 
 .popular-cards .card-rating {
-  margin-bottom: 5px;
+  margin-bottom: .5rem;
 }
 
 
@@ -75,7 +75,7 @@
 
   .popular {
       width: 100%;
-      margin-top: 50px;
+      margin-top: 5rem;
   }
 
   .popular-cards {
@@ -89,10 +89,10 @@
   }
 
   .popular-cards .card-title {
-      font-size: 14px;
+      font-size: 1.4rem;
   }
 
   .popular-cards .card-subtitle {
-      font-size: 13px;
+      font-size: 1.3rem;
   }
 }
