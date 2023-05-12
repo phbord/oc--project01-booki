@@ -18,16 +18,34 @@
     <div class="main-container">
       <!-- HEADER -->
       <header>
-        <div class="row">
-          <div class="col-12 col-md-6">left</div>
-          <div class="col-12 col-md-6">right</div>
+        <div class="row mb-5">
+          <!-- LOGO -->
+          <div class="main-logo-container col-12 col-md-6">
+            <h1 class="main-title">
+              <a href="/">
+                <img src="./images/logo/Booki.png" alt="" class="main-logo">
+              </a>
+            </h1>
+          </div>
+          <!-- MENU -->
+          <nav class="col-12 col-md-6">
+            <ul class="main-menu-list">
+              <li>
+                <a href="#accommodation" class="active">Hébergements</a>
+              </li>
+              <li>
+                <a href="#activities">Activités</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
+
       <!-- CONTENT -->
       <main>
         <!-- SEARCH -->
         <section class="search"></section>
-        <div class="accommodation-and-popular">
+        <div class="accommodation-and-popular" id="accommodation">
           <!-- ACCOMMODATION -->
           <section class="accommodation">
           </section>
@@ -93,9 +111,10 @@
           </section>
         </div>
         <!-- ACTIVITIES IN MARSEILLE -->
-        <section class="marseille-activities">
+        <section class="marseille-activities" id="activities">
         </section>
       </main>
+
       <!-- FOOTER -->
       <footer></footer>
     </div>

@@ -1,0 +1,26 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,button {
+  -webkit-transition: all var(--link-transition) ease;
+  -moz-transition: all var(--link-transition) ease;
+  -ms-transition: all var(--link-transition) ease;
+  -o-transition: all var(--link-transition) ease;
+  transition: all var(--link-transition) ease;
+}
+
+a {
+  text-decoration: none;
+}
+
