@@ -18,6 +18,10 @@ body {
   box-sizing: border-box;
 }
 
+.main-content {
+  margin-bottom: 5rem;
+}
+
 
 @media (min-width: 76.8rem) {
   body {
