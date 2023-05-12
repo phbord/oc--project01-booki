@@ -44,7 +44,51 @@
       <!-- CONTENT -->
       <main class="main-content">
         <!-- SEARCH -->
-        <section class="search"></section>
+        <section class="search">
+          <h2 class="search-title"></h2>
+          <p class="search-desc"></p>
+          <!-- Form -->
+          <form action="post" id="search-form">
+            <div class="input-group">
+              <span class="input-group-localization"></span>
+              <input type="text" name="search-input" id="search-input" class="input-group-search">
+              <button type="submit" class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Rechercher</span>
+              </button>
+            </div>
+          </form>
+          <h3 class="search-subtitle"></h3>
+          <!-- Filter -->
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button type="button" class="filter-btn">
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <span>Économique</span>
+              </button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-btn">
+                <i class="fa-solid fa-person"></i>
+                <span>Familial</span>
+              </button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-btn">
+                <i class="fa-solid fa-heart"></i>
+                <span>Romantique</span>
+              </button>
+            </li>
+            <li class="filter-item">
+              <button type="button" class="filter-btn">
+                <i class="fa-solid fa-fire"></i>
+                <span>Nos pépites</span>
+              </button>
+            </li>
+          </ul>
+        </section>
+
+        <!-- ACCOMMODATION + ACTIVITIES -->
         <div class="accommodation-and-popular" id="accommodation">
           <!-- ACCOMMODATION -->
           <section class="accommodation">
@@ -110,6 +154,7 @@
               </div>
           </section>
         </div>
+
         <!-- ACTIVITIES IN MARSEILLE -->
         <section class="marseille-activities" id="activities">
         </section>
