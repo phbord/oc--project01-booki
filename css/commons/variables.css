@@ -1,5 +1,6 @@
 :root {
   --white: #fff;
+  --black: #000;
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
   --filter-bg-color: #DEEBFF;
@@ -10,5 +11,7 @@
   --xl: 144rem;
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
+  --default-space: 1.5rem;
+  --link-transition: 300ms;
 }
 
