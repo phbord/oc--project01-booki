@@ -45,47 +45,56 @@
       <main class="main-content">
         <!-- SEARCH -->
         <section class="search">
-          <h2 class="search-title"></h2>
-          <p class="search-desc"></p>
+          <h2 class="search-title mb-3">Trouvez votre hébergement pour des vacances de rêve</h2>
+          <p class="search-desc mb-5">En plein centre-ville ou en pleine nature</p>
           <!-- Form -->
-          <form action="post" id="search-form">
+          <form action="" id="search-form" class="mb-5">
             <div class="input-group">
-              <span class="input-group-localization"></span>
-              <input type="text" name="search-input" id="search-input" class="input-group-search">
+              <div class="input-group-localization">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <input type="text" name="search-input" id="search-input" class="input-group-search" placeholder="Marseille, France">
               <button type="submit" class="search-btn">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <span>Rechercher</span>
               </button>
             </div>
           </form>
-          <h3 class="search-subtitle"></h3>
+          <h3 class="search-subtitle">Filtres</h3>
           <!-- Filter -->
-          <ul class="filter-list">
-            <li class="filter-item">
+          <ul class="row filter-list mb-5">
+            <li class="col-6 col-md-auto filter-item">
               <button type="button" class="filter-btn">
-                <i class="fa-solid fa-money-bill-wave"></i>
+                <i class="fa-solid fa-money-bill-wave mr-3"></i>
                 <span>Économique</span>
               </button>
             </li>
-            <li class="filter-item">
+            <li class="col-6 col-md-auto filter-item">
               <button type="button" class="filter-btn">
-                <i class="fa-solid fa-person"></i>
+                <i class="fa-solid fa-person mr-3"></i>
                 <span>Familial</span>
               </button>
             </li>
-            <li class="filter-item">
+            <li class="col-6 col-md-auto filter-item">
               <button type="button" class="filter-btn">
-                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-heart mr-3"></i>
                 <span>Romantique</span>
               </button>
             </li>
-            <li class="filter-item">
-              <button type="button" class="filter-btn">
-                <i class="fa-solid fa-fire"></i>
+            <li class="col-6 col-md-auto filter-item">
+              <button type="button" class="filter-btn active">
+                <i class="fa-solid fa-fire mr-3"></i>
                 <span>Nos pépites</span>
               </button>
             </li>
           </ul>
+          <!-- Informations -->
+          <div class="main-info mb-5">
+            <span class="mr-3">
+              <i class="fa-solid fa-info"></i>
+            </span>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+          </div>
         </section>
 
         <!-- ACCOMMODATION + ACTIVITIES -->
