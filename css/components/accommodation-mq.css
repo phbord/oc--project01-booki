@@ -2,6 +2,19 @@
   .accommodation-and-popular {
     flex-direction: column-reverse;
   }
+
+  /****** accommodation ***********/
+  .accommodation-and-popular section.accommodation {
+    background-color: var(--main-bg-color);
+  }
+
+  .accommodation-cards {
+    margin-top: 1.5rem;
+  }
+
+  .accommodation .card {
+    margin: 1.5rem 0;
+  }
 }
 
 
@@ -15,10 +28,12 @@
     padding: 2rem 3rem;
   }
 
+  /****** accommodation ***********/
   .accommodation {
     width: 65%;
   }
 
+  /****** popular ***********/
   .popular {
     width: 32%;
   }
@@ -37,11 +52,5 @@
 
   .popular-cards .card {
     width: 100%;
-  }
-
-  .popular-cards .card-title {
-  }
-
-  .popular-cards .card-subtitle {
   }
 }

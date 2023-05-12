@@ -2,3 +2,16 @@
   display: block !important;
 }
 
+.btn-display-more {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  cursor: pointer;
+}
+
+.btn-display-more:hover {
+  color: var(--main-color);
+}
