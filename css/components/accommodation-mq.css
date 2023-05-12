@@ -1,0 +1,47 @@
+@media (min-width: 76.8rem) {
+  .accommodation-and-popular {
+    flex-direction: column-reverse;
+  }
+}
+
+
+@media (min-width: 102.4rem) {
+  .accommodation-and-popular {
+    flex-direction: row-reverse;
+  }
+
+  .accommodation-and-popular section {
+    border-radius: 2rem;
+    padding: 2rem 3rem;
+  }
+
+  .accommodation {
+    width: 65%;
+  }
+
+  .popular {
+    width: 32%;
+  }
+
+  .popular-cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .popular-cards ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popular-cards .card {
+    width: 100%;
+  }
+
+  .popular-cards .card-title {
+  }
+
+  .popular-cards .card-subtitle {
+  }
+}
