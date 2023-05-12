@@ -8,12 +8,35 @@
 .accommodation-and-popular section {
   background-color: var(--main-bg-color);
   padding: 1.5rem 2rem;
+  border-radius: var(--default-space);
   box-sizing: border-box;
 }
 
 /****** accommodation ***********/
-.accommodation {
+.accommodation-and-popular section.accommodation {
   width: 100%;
+  margin: 2rem 0 5rem;
+  background-color: var(--white);
+}
+
+.accommodation-cards {
+  margin-top: .75rem;
+}
+
+.accommodation .card {
+  margin: .75rem 0;
+}
+
+.accommodation img {
+  width: 100%;
+  height: 12.4rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  object-fit: cover;
+}
+
+.accommodation .card-content {
+  padding: 0 1.5rem 1rem;
 }
 
 /****** popular ***********/
@@ -55,6 +78,7 @@
   box-sizing: border-box;
 }
 
+.accommodation-cards .card-title,
 .popular-cards .card-title {
   margin-top: 1rem;
   margin-bottom: .4rem;
@@ -63,6 +87,7 @@
   font-weight: 700;
 }
 
+.accommodation-cards .card-subtitle,
 .popular-cards .card-subtitle {
   margin: 0;
   font-size: 1.4rem;
