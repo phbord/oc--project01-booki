@@ -24,13 +24,18 @@
   }
 
   .accommodation-and-popular section {
-    border-radius: 2rem;
+    margin-left: 4rem;
     padding: 2rem 3rem;
+    border-radius: 2rem;
   }
 
   /****** accommodation ***********/
   .accommodation {
     width: 65%;
+  }
+
+  .accommodation-and-popular section.accommodation {
+    margin: 0;
   }
 
   /****** popular ***********/
