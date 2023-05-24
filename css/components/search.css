@@ -22,9 +22,7 @@
 }
 
 /* FORM */
-#search-form {}
-
-#search-form .input-group {
+s#search-form .input-group {
   height: var(--btnHeight);
   display: flex;
   border: 1px solid var(--main-bg-color);
